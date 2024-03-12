@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Nothing+You+Could+Do&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=Monoton&family=Nothing+You+Could+Do&family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=Monoton&family=Neucha&family=Nothing+You+Could+Do&family=Rock+Salt&display=swap');
+header{width: 1500px;
+}
+img{
+    width: 100px;
+}
+h1{font-size: 50px;
+    color: #0921f7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    p{
+    font-size: 25px;
+    color: hsl(64, 93%, 49%);
+    
+  font-family: "Armata", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+}
+.conteiner{
+    display: flex;
+    flex-direction:row;
+    margin-top: 10px 0 10px 0;
+padding: 10px;
+    width: 100%;}
+
+nav ul{list-style-type: none;
+    margin: o;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 10px;
+    
+  font-family: "Nothing You Could Do", cursive;
+  text-decoration: none;
+}
+.conteiner a{
+    color: hsl(41, 100%, 48%);
+    font-size: 25px;
+}
+h2{
+    
+    font-size: 50px;
+    color: rgb(239, 247, 236);
+    font-family: cursive
+}
+h4{
+    font-size:60px;
+    color: #0921f7;
+    font-family: "Neucha", cursive;
+}
+h3{
+    font-size: 40px;
+    color: rgb(69, 233, 10);
+    font-family: cursive;
+    
+    font-size:60px;
+    color: hsl(64, 93%, 49%);
+    font-family: "Neucha", cursive;
+}
+h5{
+ 
+    font-size: 40px;
+    color: rgb(239, 247, 236);
+    font-family: cursive;   
+}
+#contactanos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#contactanos iframe{
+padding: 10px;
+margin: 10px;
+}
+
+
+body{
+    background-image:url("/desarrollo/imagentiki/menu\ pizzas\ tiki.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-carrucel{
+background-attachment: fixed;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;    
+}
+.img-carrucel{
+    width: 800px;
+    height: 80vh;
+    justify-content: center;
+    margin-left: 200px;
+}
+.imf-logo{
+    border-radius: 50%;
+}
